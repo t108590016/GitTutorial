@@ -8,7 +8,7 @@
 
 bool Guess(int number) {
 	static int target = -1;
-
+	int i = 0;
 	srand(time(NULL));
 	if (target == -1) {
 		target = rand() % 100 + 1;
